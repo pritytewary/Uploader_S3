@@ -16,27 +16,24 @@ AWS account with S3 access.
 Installation
 Clone the repository:
 
-bash
-Copy code
+
 git clone https://github.com/your-username/file-upload-with-aws-s3.git
 Install dependencies:
 
-bash
-Copy code
+
 cd file-upload-with-aws-s3
 npm install
 Create a .env file in the root directory and add your AWS S3 credentials:
 
 plaintext
-Copy code
+
 AWS_ACCESS_KEY_ID=your-access-key-id
 AWS_SECRET_ACCESS_KEY=your-secret-access-key
 AWS_BUCKET_NAME=your-bucket-name
 Usage
 Start the server:
 
-bash
-Copy code
+
 npm start
 Access the web application at http://localhost:3000 in your browser.
 
