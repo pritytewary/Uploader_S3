@@ -10,7 +10,9 @@ A simple web application for uploading files to AWS S3 using React on the fronte
 
 ### Prerequisites
 Node.js installed on your local machine.
+
 AWS account with S3 access.
+
 Installation
 
 ### Clone the repository:
@@ -27,19 +29,27 @@ Create a .env file in the root directory and add your AWS S3 credentials:
 
 ### .env example
 AWS_ACCESS_KEY_ID=your-access-key-id
+
 AWS_SECRET_ACCESS_KEY=your-secret-access-key
+
 AWS_BUCKET_NAME=your-bucket-name
 
 ### Start the server:
 npm start
+
 Access the web application at http://localhost:3000 in your browser.
+
 Choose a file to upload and click the "Upload" button.
+
 Once uploaded successfully, the application will display the download link.
 
 ### Technologies Used
 React
+
 Node.js
+
 Express
+
 AWS SDK for JavaScript
 
 ### License
@@ -47,4 +57,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ### Acknowledgements
 Multer - Middleware for handling multipart/form-data.
+
 AWS SDK for JavaScript - Official AWS SDK for JavaScript.
