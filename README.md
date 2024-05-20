@@ -14,7 +14,7 @@ Node.js installed on your local machine.
 
 AWS account with S3 access.
 
-Installation
+
 
 ### ⭐Clone the repository:
 git clone https://github.com/your-username/file-upload-with-aws-s3.git
