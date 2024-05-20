@@ -19,7 +19,9 @@ git clone https://github.com/your-username/file-upload-with-aws-s3.git
 
 ### install dependencies
 cd file-upload-with-aws-s3
+
 npm install
+
 Create a .env file in the root directory and add your AWS S3 credentials:
 
 
