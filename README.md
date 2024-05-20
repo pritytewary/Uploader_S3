@@ -9,8 +9,6 @@ A simple web application for uploading files to AWS S3 using React on the fronte
 🔗 File URL Generation: Generates a unique URL for each uploaded file for easy access.
 
 ### Prerequisites
-Before you begin, ensure you have met the following requirements:
-
 Node.js installed on your local machine.
 AWS account with S3 access.
 Installation
@@ -34,7 +32,6 @@ AWS_BUCKET_NAME=your-bucket-name
 npm start
 Access the web application at http://localhost:3000 in your browser.
 Choose a file to upload and click the "Upload" button.
-
 Once uploaded successfully, the application will display the download link.
 
 ### Technologies Used
